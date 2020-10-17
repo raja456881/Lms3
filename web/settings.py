@@ -26,7 +26,7 @@ SECRET_KEY = ')0g-sj7u5f6z5+28+f7mz4fmdu5ypupn2d=z9fl8_($zo0lru1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 AUTH_USER_MODEL = 'multiuser.User'
 
 # Application definition
